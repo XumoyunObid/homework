@@ -1,0 +1,189 @@
+@media (max-width: 380px) {
+  .container {
+    width: 350px;
+    padding-left: 20px;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+  }
+
+  .header-pre-title {
+    color: var(--af-black, #000);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 168%; /* 20.16px */
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+  }
+
+  .navbar-items,
+  .d-none {
+    display: none;
+  }
+
+  .navbar img {
+    display: flex;
+    width: 179px;
+    height: 16px;
+    padding: 0px 0.184px 0.087px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  #hero {
+    background-color: #000;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .hero-title {
+    color: var(--af-white, #fff);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    padding-top: 45px;
+  }
+
+  .hero-text {
+    color: var(--af-white, #fff);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.5%;
+    text-align: justify;
+    padding-bottom: 40px;
+  }
+
+  #about {
+    background-color: #000;
+    color: white;
+    padding-top: 30px;
+  }
+
+  .about-title {
+    color: var(--af-white, #fff);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.5%;
+    padding-top: 20px;
+  }
+
+  .about-items {
+    color: var(--af-white, #fff);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.5%;
+    padding-bottom: 50px;
+  }
+
+  .about-items::before {
+    content: "/";
+    color: #c2a578;
+    position: relative;
+    right: 5px;
+  }
+
+  #activities {
+    background-color: #000;
+    color: white;
+    padding-block: 30px;
+  }
+
+  .activities-title {
+    color: var(--af-white, #fff);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+
+  .products-title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  .product-name {
+    color: #000;
+    font-family: Oswald;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 168%;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    background-color: #f1f1f1;
+    padding-block: 15px;
+  }
+
+  .footer-title {
+    color: var(--af-black, #000);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+  }
+
+  .input-email {
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+  }
+
+  .footer-items {
+    margin-top: 15px;
+    color: #7e7e7e;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.5%;
+  }
+
+  .footer-item1 {
+    margin-bottom: 50px;
+  }
+
+  .footer-items:first-child {
+    color: var(--af-dark-grey, #353535);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.98px;
+    text-transform: uppercase;
+  }
+}
